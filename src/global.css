@@ -1,0 +1,28 @@
+* {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: var(--corPrincipal);
+    color: var(--corTexto);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrincipal: #191724;
+    --corSecundaria: #C4A7E7;
+    --corTitulo: #EBBCBA;
+    --corTexto: #E0DEF4;
+    --corLink: #7DCFCD;
+}
+
+.inputUsuario {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    margin: 10px;
+}
